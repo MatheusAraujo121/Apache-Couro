@@ -1115,17 +1115,17 @@ a {
     }
 
     .hero-emblem-box {
-        width: 110px;
-        height: 124px;
+        width: 120px;
+        height: 134px;
     }
 
     .hero-emblem-left {
-        width: 114px;
+        width: 124px;
         transform: translateY(2px) scale(1.08);
     }
 
     .hero-emblem-right {
-        width: 108px;
+        width: 118px;
         transform: scaleX(-1) translateY(9px) scale(1.02);
     }
 
