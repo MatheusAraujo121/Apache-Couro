@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="meta-title">Produtos da Categoria | Apache Couro</title>
-    <meta id="meta-description" name="description" content="Explore todos os modelos artesanais em couro legítimo da Apache Couro e peça seu orçamento direto pelo WhatsApp do Daniel.">
+    <meta id="meta-description" name="description"
+        content="Explore todos os modelos artesanais em couro legítimo da Apache Couro e peça seu orçamento direto pelo WhatsApp do Daniel.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#241206">
 
@@ -15,7 +17,7 @@
     <!-- Google Fonts & Font Awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
@@ -30,7 +32,7 @@
             max-width: 1160px;
         }
 
-        /* Logo no menu superior (top-nav) */
+        /* Logo no menu superior (com fundo claro para não sumir no marrom escuro) */
         .nav-brand {
             display: inline-flex;
             align-items: center;
@@ -41,6 +43,8 @@
             height: 34px;
             width: auto;
             object-fit: contain;
+            background-color: #f6ede0;
+            padding: 3px 5px;
             border-radius: 6px;
             flex-shrink: 0;
         }
@@ -72,6 +76,7 @@
     <!-- Schema.org Dinâmico -->
     <script id="schema-categoria" type="application/ld+json">{}</script>
 </head>
+
 <body>
 
     <div class="page-wrapper">
@@ -138,13 +143,15 @@
         <footer class="footer">
             <div class="footer-brand">APACHE COURO</div>
             <p style="font-size: 0.9rem; color: #e6d5be; max-width: 540px;">
-                Gostou de algum modelo ou deseja personalizar uma peça exclusiva em couro legítimo? Clique em qualquer produto acima para falar direto com o Daniel.
+                Gostou de algum modelo ou deseja personalizar uma peça exclusiva em couro legítimo? Clique em qualquer
+                produto acima para falar direto com o Daniel.
             </p>
             <div class="footer-links">
                 <a href="index.html" class="social-link">
                     <i class="fa-solid fa-grid-2"></i> Todas as Categorias
                 </a>
-                <a href="https://instagram.com/danigiinacio" target="_blank" rel="noopener noreferrer" class="social-link insta">
+                <a href="https://instagram.com/danigiinacio" target="_blank" rel="noopener noreferrer"
+                    class="social-link insta">
                     <i class="fa-brands fa-instagram"></i> @danigiinacio
                 </a>
                 <a id="cat-footer-wpp" href="#" target="_blank" rel="noopener noreferrer" class="social-link wpp">
@@ -172,7 +179,8 @@
     </div>
 
     <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
-    <a id="cat-float-wpp" href="#" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Falar com Daniel no WhatsApp">
+    <a id="cat-float-wpp" href="#" target="_blank" rel="noopener noreferrer" class="floating-whatsapp"
+        aria-label="Falar com Daniel no WhatsApp">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
@@ -308,4 +316,5 @@
         });
     </script>
 </body>
+
 </html>
